@@ -1,0 +1,26 @@
+.shortContact {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+span {
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.contact_info {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social_handles {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
