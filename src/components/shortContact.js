@@ -23,6 +23,9 @@ const shortContact = () => {
         <span>
           <i class="fa-brands fa-twitter"></i>
         </span>
+        <span>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </span>
       </div>
     </div>
   );
