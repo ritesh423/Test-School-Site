@@ -1,22 +1,23 @@
 import React from "react";
+import "./slider.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import Image1 from "../assets/img1.jpg";
+import Image2 from "../assets/img2.jpg";
+import Image3 from "../assets/img3.jpg";
 
 const slider = () => {
   return (
     <div>
-      <Carousel>
+      <Carousel className="slider" autoPlay={true} showThumbs={false}>
         <div>
-          <img src="https://wallpaperaccess.com/full/1247206.jpg" />
-          <p className="legend">Legend 1</p>
+          <img src={Image1} alt="Slider" />
         </div>
         <div>
-          <img src="https://wallpaperaccess.com/full/1247143.jpg" />
-          <p className="legend">Legend 2</p>
+          <img src={Image2} alt="Slider" />
         </div>
         <div>
-          <img src="https://www.teahub.io/photos/full/13-133927_top-50-awesome-3d-wallpapers-hd-background-spot.jpg" />
-          <p className="legend">Legend 3</p>
+          <img src={Image3} alt="Slider" />
         </div>
       </Carousel>
     </div>
